@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:8080/api/';
+const apiUrl = 'https://ct-test-3-2-backendtest-fhaji.ondigitalocean.app/api/';
 
 export const singleFileUpload = async (data, options) => {
     try {
